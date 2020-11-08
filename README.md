@@ -39,9 +39,19 @@ from step 1
 
 * 1.2, clone the app from github
 
+       git clone https://github.com/QueenieCplusplus/Simple_Nodejs_App.git
+
 * 1.3, install the app in shell
 
+       cd Simple_Nodejs_App
+       
+       cd flexible
+       
+       npm install
+
 * 1.4, start the npm server
+
+       npm start
 
 # GAE API
 
