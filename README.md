@@ -79,3 +79,11 @@ App Engine uses a file called app.yaml to describe an application's deployment c
 
 Open app.yaml to see what it contains. You can use vim, nano,or emacs to view the file.
 
+* 2.2, in cloud sell, open the app.yaml file to see the code line as following.
+
+         runtime: nodejs
+         env: flex
+         
+* 2.3, to deploy app into GAE.
+
+         gcloud app deploy
