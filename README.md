@@ -53,6 +53,10 @@ from step 1
 
        npm start
 
+* 1.5, stip the npm server
+
+       ctrl + c
+       
 # GAE API
 
 from step 2
