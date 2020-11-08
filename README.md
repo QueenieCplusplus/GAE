@@ -93,3 +93,7 @@ Region Selection
 * 2.4, to select the nearest region in prompt for app to deploy, then type "y" to say yes.
 
       Because this is the first time you are deploying App Engine, the tool will prompt you to select a location to deploy the app.
+
+* tips & attentions:
+
+It takes time sunce the App Engine environment automatically provisions a (GCE) Compute Engine virtual machine for you behind the scenes, and then installs and starts the application.
