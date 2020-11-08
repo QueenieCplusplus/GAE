@@ -97,3 +97,7 @@ Region Selection
 * tips & attentions:
 
 It takes time sunce the App Engine environment automatically provisions a (GCE) Compute Engine virtual machine for you behind the scenes, and then installs and starts the application.
+
+Browe URL
+
+* 2.5, after deployment, we got an URL which is http://<proj-id>.appspot.com in browser, this proj-id is as same as proj-id in "Connection Details" Tab in c;oud console.
