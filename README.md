@@ -21,3 +21,11 @@ serverless see https://github.com/QueenieCplusplus/CloudRun/blob/main/README.md
 
 # Core Steps:
 
+(1) create a Nodejs App
+
+(2) deploy app in GAE instance
+
+(3) without Downtime, revsion (rollback/rollout) the App
+
+-----
+
