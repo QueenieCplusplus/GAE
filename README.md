@@ -100,7 +100,9 @@ It takes time sunce the App Engine environment automatically provisions a (GCE) 
 
 Browe URL
 
-* 2.5, after deployment, we got an URL which is http://<proj-id>.appspot.com in browser, this proj-id is as same as proj-id in "Connection Details" Tab in c;oud console.
+* 2.5, after deployment, we got an URL which is a new url in browser, this proj-id is as same as proj-id in "Connection Details" Tab in c;oud console.
+
+       http://<proj-id>.appspot.com 
 
 # Modify Web App
 
