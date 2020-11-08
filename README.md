@@ -87,3 +87,9 @@ Open app.yaml to see what it contains. You can use vim, nano,or emacs to view th
 * 2.3, to deploy app into GAE.
 
          gcloud app deploy
+
+Region Selection
+
+* 2.4, to select the nearest region in prompt for app to deploy.
+
+      Because this is the first time you are deploying App Engine, the tool will prompt you to select a location to deploy the app.
