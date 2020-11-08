@@ -9,6 +9,12 @@ since the GCE is an IaaS solution, GCP provides devops the SaaS solution got the
 
 serverless see https://github.com/QueenieCplusplus/CloudRun/blob/main/README.md
 
+# yaml file 
+
+all config info for GAE in app
+
+https://cloud.google.com/appengine/docs/flexible/nodejs/configuring-your-app-with-app-yaml
+
 # support Hosts 
 
     * Nodejs
