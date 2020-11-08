@@ -51,6 +51,8 @@ from step 2
 
 * 2.1, in cloud console, navigate to API & Services > Dashboard.
 
+![](https://raw.githubusercontent.com/QueenieCplusplus/GAE/main/activate%20api.png)
+
 
 
 
