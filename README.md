@@ -53,6 +53,9 @@ from step 2
 
 ![](https://raw.githubusercontent.com/QueenieCplusplus/GAE/main/activate%20api.png)
 
+* tips & attentions:
 
+App Engine uses a file called app.yaml to describe an application's deployment configuration. If this file is not present, App Engine will try to guess the deployment configuration. However, it is a good idea to provide this file.
 
+Open app.yaml to see what it contains. You can use vim, nano,or emacs to view the file.
 
