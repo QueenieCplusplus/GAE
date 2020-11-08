@@ -29,3 +29,16 @@ serverless see https://github.com/QueenieCplusplus/CloudRun/blob/main/README.md
 
 -----
 
+# Nodejs App
+
+# GAE API
+
+from step 2
+
+> to activate the API Service in Cloud console.
+
+* 2.1, in cloud console, navigate to API & Services > Dashboard.
+
+
+
+
