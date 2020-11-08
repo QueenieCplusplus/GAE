@@ -101,3 +101,60 @@ It takes time sunce the App Engine environment automatically provisions a (GCE) 
 Browe URL
 
 * 2.5, after deployment, we got an URL which is http://<proj-id>.appspot.com in browser, this proj-id is as same as proj-id in "Connection Details" Tab in c;oud console.
+
+# Modify Web App
+
+from step 3:
+
+> install new lib, add some codeline, and re-deploy app without Downtime.
+
+* 3.1, in cloud shell, install new lib.
+
+      npm install uuid@^3.1 --save
+      
+* 3.2, add some codeline to app.js
+
+      vi app.js
+      
+      i
+      
+      [app.js]
+      
+      const uuid = require('uuid/v4');
+      
+      ...
+      
+      .send(ˋHello, ${uuid()}ˋ)
+      
+      :wq
+      
+* app.js
+
+      'use strict';
+
+      // [START gae_flex_quickstart]
+      const express = require('express');
+      const uuid = require('uuid/v4');
+
+      const app = express();
+
+      app.get('/', (req, res) => {
+        res
+          .status(200)
+          .send(`Hello, ${uuid()}!`)
+          .end();
+      });
+
+      // Start the server
+      const PORT = process.env.PORT || 8080;
+      app.listen(PORT, () => {
+        console.log(`App listening on port ${PORT}`);
+        console.log('Press Ctrl+C to quit.');
+      });
+      // [END gae_flex_quickstart]
+      
+ * 3.3, we can test app locally in cloud shell and console.
+ 
+       npm start
+       
+ * 3.4, and see the result in the browser, after clicking on "preview on port 8080" tab in console.
