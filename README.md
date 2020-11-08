@@ -61,7 +61,7 @@ from step 1
 
 from step 2
 
-> to activate the API Service in Cloud console.
+> to activate (enable) the API Service in Cloud console.
 
 * 2.1, in cloud console, navigate to API & Services > Dashboard.
 
