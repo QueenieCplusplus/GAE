@@ -167,6 +167,10 @@ from step 3:
 
        gcloud app deploy
        
- * 3.6, see new web page which is deployed using the url http://<proj-id>.appspot.com 
-   
+ * 3.6, see new web page which is deployed using the url 
+ 
+       http://<proj-id>.appspot.com 
+ 
+ * 3.7, or use cloud shell to see the deployment result.
+ 
        gcloud app browse
