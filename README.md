@@ -31,6 +31,18 @@ serverless see https://github.com/QueenieCplusplus/CloudRun/blob/main/README.md
 
 # Nodejs App
 
+from step 1
+
+> to clone, install, and start the App server.
+
+* 1.1 open cloud shell
+
+* 1.2, clone the app from github
+
+* 1.3, install the app in shell
+
+* 1.4, start the npm server
+
 # GAE API
 
 from step 2
