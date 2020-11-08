@@ -158,3 +158,13 @@ from step 3:
        npm start
        
  * 3.4, and see the result in the browser, after clicking on "preview on port 8080" tab in console.
+
+# Revsion in GAE
+
+* 3.5, run app after typing the cmd line in shell.
+
+       gcloud app deploy
+       
+ * 3.6, see new web page which is deployed using the url http://<proj-id>.appspot.com 
+   
+       gcloud app browse
